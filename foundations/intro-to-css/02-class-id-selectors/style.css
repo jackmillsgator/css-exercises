@@ -1,0 +1,31 @@
+.red-pink-background
+{
+
+    background-color: #990202AA;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+
+}
+
+#blue-text
+{
+
+    color: rgb(0, 0, 200);
+    font-size: 36px;
+
+}
+
+.third-class
+{
+
+    font-size: 24px;
+
+}
+
+#light-green-stuff
+{
+
+    background-color: #00FF00AA;
+    font-size: 24px;
+    font-weight: bold;
+
+}
