@@ -1,28 +1,33 @@
-body {
+body
+{
   max-width: 600px;
   margin: 0 auto;
 }
 
-.one {
+.one
+{
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 20px;
+  margin-right: auto;
+  width: 200px;
 }
 
-.two {
+.two
+{
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 }
 
-.three {
+.three
+{
   background: peachpuff;
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 20px;
+  margin-left: auto;
 }

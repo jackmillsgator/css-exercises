@@ -1,27 +1,56 @@
-body {
+body
+{
   background: #eee;
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  display: border-box;
+  
 }
 
-.card {
-  width: 400px;
+.card
+{
+  width: 700px;
   background: #fff;
-  margin: 16px auto;
+  padding: 8px;
+  margin: 8px auto;
 }
 
-.title {
+.title
+{
   background: #e3f4ff;
+  padding: 10px;
+  margin: 8px;
 }
 
-.content {
+.content
+{
   background: #e3f4ff;
+  font-size: 28px;
+  padding: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 8px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
-.button-container {
+.button-container
+{
   background: #e3f4ff;
+  font-size: 28px;
+  padding: 10px 50px 10px 50px;
+  margin: 8px;
+  text-align: center;
+
 }
 
-button {
+button
+{
   background: white;
   border: 1px solid #eee;
+  display: block;
+  padding: 10px 30px;
+  font-size: 24px;
+  margin: 0 auto;
 }
