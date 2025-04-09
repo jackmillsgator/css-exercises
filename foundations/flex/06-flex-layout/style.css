@@ -24,3 +24,79 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/************************************/
+/*          MY SOLUTION             */
+/************************************/
+
+*
+{
+    padding: 0;
+    margin: 0;
+    /*border: 1px indigo solid;*/
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.footer
+{
+    flex: 0;
+}
+
+.content
+{
+
+    /*border: 1px orange solid;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+    flex: 1;
+
+
+}
+
+button
+{
+    padding: 10px;
+}
+
+.header,
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer
+{
+    background-color: #DDDDDD;
+}
+
+.left-links,
+.right-links
+{
+
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: #777777;
+}
