@@ -1,48 +1,75 @@
 body,
-html {
+html
+{
+
   height: 100%;
   margin: 0;
+
 }
 
-.container {
+.container
+{
+
   text-align: center;
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+
 }
 
-.container div {
+.container div
+{
+
   padding: 15px;
   font-size: 32px;
   font-family: Helvetica;
   font-weight: bold;
   color: white;
   border-radius: 15px;
+
 }
 
-.header {
+.header
+{
+
   background-color: #006157;
+
 }
 
-.sidebar {
+.sidebar
+{
+
   background-color: #005B94;
+
 }
 
-.nav {
+.nav
+{
+
   background-color: #642cde;
+
 }
 
-.article {
+.article 
+{
+
   background-color: #7E1DC3;
+
 }
 
-.footer {
+.footer
+{
+
   background-color: #393f4d;
+
 }
 
-.article p {
+.article p
+{
+
   font-size: 18px;
   font-family: sans-serif;
   color: white;
   text-align: left;
+
 }
